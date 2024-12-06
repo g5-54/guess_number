@@ -10,10 +10,10 @@ while True:
     if guess < number:
         print('Your number is lower than needed')
 
-    if guess > number:
+    elif guess > number:
         print('Your number is higher than needed')
 
-    if guess == number:
+    elif guess == number:
         break
 
 print('Correct')
